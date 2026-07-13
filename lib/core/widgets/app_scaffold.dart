@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../app/theme/app_spacing.dart';
-
 /// Standard screen scaffold for MindTrack AI.
 ///
-/// Applies the app bar, consistent horizontal padding, and safe-area
-/// handling so individual screens only provide their content.
+/// Applies the app bar and safe-area handling; pair the [body] with
+/// [AppScreenContainer] for standard content padding.
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
     super.key,
@@ -32,14 +30,7 @@ class AppScaffold extends StatelessWidget {
         actions: actions,
       ),
       bottomNavigationBar: bottomNavigationBar,
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.screenPadding,
-          ),
-          child: body,
-        ),
-      ),
+      body: SafeArea(child: body),
     );
   }
 }

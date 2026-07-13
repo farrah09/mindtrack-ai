@@ -4,6 +4,7 @@ import 'app_colors.dart';
 import 'app_shapes.dart';
 import 'app_spacing.dart';
 import 'app_typography.dart';
+import 'wellness_colors.dart';
 
 /// Builds the light and dark [ThemeData] for MindTrack AI.
 ///
@@ -29,6 +30,11 @@ abstract final class AppTheme {
     );
 
     return base.copyWith(
+      extensions: [
+        brightness == Brightness.light
+            ? WellnessColors.light
+            : WellnessColors.dark,
+      ],
       textTheme: AppTypography.textTheme(base.textTheme),
       scaffoldBackgroundColor: colorScheme.surface,
       appBarTheme: AppBarTheme(
@@ -47,6 +53,16 @@ abstract final class AppTheme {
         style: FilledButton.styleFrom(
           shape: AppShapes.buttonShape,
           minimumSize: const Size.fromHeight(52),
+          textStyle: base.textTheme.titleMedium?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          shape: AppShapes.buttonShape,
+          minimumSize: const Size.fromHeight(52),
+          side: BorderSide(color: colorScheme.outline),
           textStyle: base.textTheme.titleMedium?.copyWith(
             fontWeight: FontWeight.w600,
           ),

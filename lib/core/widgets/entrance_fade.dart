@@ -7,7 +7,8 @@ import '../constants/app_durations.dart';
 /// Used for subtle content entrances (cards, empty states). Respects the
 /// platform "reduce motion" accessibility setting by skipping the slide.
 class EntranceFade extends StatefulWidget {
-  const EntranceFade({super.key, this.delay = Duration.zero, required this.child});
+  const EntranceFade(
+      {super.key, this.delay = Duration.zero, required this.child});
 
   /// Optional delay before the entrance starts, for light staggering.
   final Duration delay;
@@ -31,7 +32,7 @@ class _EntranceFadeState extends State<EntranceFade>
   late final Animation<Offset> _offset = Tween<Offset>(
     begin: const Offset(0, 0.04),
     end: Offset.zero,
-  ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutCubic));
+  ).animate(CurvedAnimation(parent: _controller, curve: AppCurves.enter));
 
   @override
   void initState() {

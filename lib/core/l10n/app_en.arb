@@ -150,5 +150,22 @@
   "semanticsOpenSettings": "Open settings",
   "@semanticsOpenSettings": {
     "description": "Semantics label for the settings icon button in the app bar."
+  },
+
+  "habitCompletedSemantics": "Completed today",
+  "@habitCompletedSemantics": {
+    "description": "Screen-reader label for a habit's completion indicator when the habit is done."
+  },
+  "habitNotCompletedSemantics": "Not completed yet",
+  "@habitNotCompletedSemantics": {
+    "description": "Screen-reader label for a habit's completion indicator when the habit is not done."
+  },
+  "coachMessageSemantics": "Coach message",
+  "@coachMessageSemantics": {
+    "description": "Screen-reader prefix for a chat message sent by the coach."
+  },
+  "userMessageSemantics": "Your message",
+  "@userMessageSemantics": {
+    "description": "Screen-reader prefix for a chat message sent by the user."
   }
 }

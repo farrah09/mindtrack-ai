@@ -2,7 +2,7 @@
 
 Each commit is a reviewable, self-contained step. Order may shift slightly as the product takes shape.
 
-## Commit 1 — Foundation (this commit)
+## Commit 1 — Foundation (done)
 - Flutter project, clean feature-first structure
 - Material 3 light/dark theme with color/spacing/shape/typography tokens
 - GoRouter with bottom-nav shell and all seven placeholder screens
@@ -10,30 +10,37 @@ Each commit is a reviewable, self-contained step. Order may shift slightly as th
 - Reusable widgets: AppScaffold, MindTrackCard, PrimaryActionButton, EmptyStateView, LoadingStateView, SectionHeader
 - Docs: architecture, roadmap, ADR-001, UI generation prompt
 
-## Commit 2 — Habits (domain + local state)
+## Commit 2 — Wellness design system foundation (this commit)
+- `WellnessColors` theme extension (positive tones, chat bubble colors)
+- Motion tokens (durations, curves, stagger) and animation helpers
+- New reusable widgets: AppScreenContainer, SecondaryActionButton
+- Feature placeholder components: MoodChip, HabitPreviewCard, CoachMessageBubble
+- docs/design-system.md
+
+## Commit 3 — Habits (domain + local state)
 - Habit entity, repository contract, in-memory implementation
 - Create/complete habits, habit list UI with real empty/loading states
 - Habit completion animation
 
-## Commit 3 — Mood check-ins
+## Commit 4 — Mood check-ins
 - Mood entity and repository contract
 - Check-in flow with mood selection animation
 - Recent check-ins on Home
 
-## Commit 4 — Local persistence
+## Commit 5 — Local persistence
 - Hive or Isar behind existing repository contracts
 - Onboarding-completed flag (skip onboarding on relaunch)
 
-## Commit 5 — Mock AI coach
+## Commit 6 — Mock AI coach
 - Coach suggestion engine with canned, context-aware responses
 - Chat-style UI with typing indicator
 - Clear seam for a future backend-safe AI service
 
-## Commit 6 — Analytics
+## Commit 7 — Analytics
 - Habit streaks and mood trends from real local data
 - Accessible charts (not color-only encoding)
 
-## Commit 7 — Settings & polish
+## Commit 8 — Settings & polish
 - Theme mode preference, data reset
 - Page transition polish, screenshot pass for the README
 
