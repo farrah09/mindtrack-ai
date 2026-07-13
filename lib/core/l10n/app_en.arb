@@ -1,0 +1,154 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "MindTrack AI",
+  "@appTitle": {
+    "description": "The application name shown in the OS task switcher and app bars."
+  },
+
+  "onboardingTitle": "Welcome to MindTrack",
+  "@onboardingTitle": {
+    "description": "Title of the onboarding screen."
+  },
+  "onboardingDescription": "Build better habits, understand your moods, and get gentle coaching along the way.",
+  "@onboardingDescription": {
+    "description": "Short pitch shown on the onboarding screen."
+  },
+  "onboardingGetStarted": "Get started",
+  "@onboardingGetStarted": {
+    "description": "Label of the button that finishes onboarding and opens the home screen."
+  },
+
+  "homeTitle": "Today",
+  "@homeTitle": {
+    "description": "Title of the home screen."
+  },
+  "homeDescription": "Your daily overview of habits, mood, and coaching will live here.",
+  "@homeDescription": {
+    "description": "Placeholder description on the home screen."
+  },
+  "homeEmptyTitle": "Nothing here yet",
+  "@homeEmptyTitle": {
+    "description": "Title of the empty state on the home screen."
+  },
+  "homeEmptyMessage": "Once you add habits and check in with your mood, your day will take shape here.",
+  "@homeEmptyMessage": {
+    "description": "Message of the empty state on the home screen."
+  },
+
+  "habitsTitle": "Habits",
+  "@habitsTitle": {
+    "description": "Title of the habits screen."
+  },
+  "habitsDescription": "Track the small daily actions that add up.",
+  "@habitsDescription": {
+    "description": "Placeholder description on the habits screen."
+  },
+  "habitsEmptyTitle": "No habits yet",
+  "@habitsEmptyTitle": {
+    "description": "Title of the empty state on the habits screen."
+  },
+  "habitsEmptyMessage": "Create your first habit and start building momentum, one day at a time.",
+  "@habitsEmptyMessage": {
+    "description": "Message of the empty state on the habits screen."
+  },
+
+  "moodTitle": "Mood check-in",
+  "@moodTitle": {
+    "description": "Title of the mood check-in screen."
+  },
+  "moodDescription": "Take a moment to notice how you feel today.",
+  "@moodDescription": {
+    "description": "Placeholder description on the mood check-in screen."
+  },
+  "moodEmptyTitle": "No check-ins yet",
+  "@moodEmptyTitle": {
+    "description": "Title of the empty state on the mood screen."
+  },
+  "moodEmptyMessage": "Your first mood check-in will appear here. It only takes a few seconds.",
+  "@moodEmptyMessage": {
+    "description": "Message of the empty state on the mood screen."
+  },
+
+  "aiCoachTitle": "Coach",
+  "@aiCoachTitle": {
+    "description": "Title of the AI coach screen."
+  },
+  "aiCoachDescription": "Personalized, supportive suggestions based on your habits and moods.",
+  "@aiCoachDescription": {
+    "description": "Placeholder description on the AI coach screen."
+  },
+  "aiCoachEmptyTitle": "Your coach is warming up",
+  "@aiCoachEmptyTitle": {
+    "description": "Title of the empty state on the AI coach screen."
+  },
+  "aiCoachEmptyMessage": "Coaching suggestions will appear here once you start tracking habits and moods.",
+  "@aiCoachEmptyMessage": {
+    "description": "Message of the empty state on the AI coach screen."
+  },
+
+  "analyticsTitle": "Insights",
+  "@analyticsTitle": {
+    "description": "Title of the analytics screen."
+  },
+  "analyticsDescription": "See how your habits and moods change over time.",
+  "@analyticsDescription": {
+    "description": "Placeholder description on the analytics screen."
+  },
+  "analyticsEmptyTitle": "Not enough data yet",
+  "@analyticsEmptyTitle": {
+    "description": "Title of the empty state on the analytics screen."
+  },
+  "analyticsEmptyMessage": "Keep tracking for a few days and meaningful trends will show up here.",
+  "@analyticsEmptyMessage": {
+    "description": "Message of the empty state on the analytics screen."
+  },
+
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Title of the settings screen."
+  },
+  "settingsDescription": "Preferences, appearance, and data options will live here.",
+  "@settingsDescription": {
+    "description": "Placeholder description on the settings screen."
+  },
+
+  "commonLoading": "Loading…",
+  "@commonLoading": {
+    "description": "Generic loading indicator label."
+  },
+  "commonRetry": "Try again",
+  "@commonRetry": {
+    "description": "Generic retry button label shown on error states."
+  },
+  "commonComingSoon": "Coming soon",
+  "@commonComingSoon": {
+    "description": "Badge label used on placeholder screens for features that are not built yet."
+  },
+
+  "navHome": "Today",
+  "@navHome": {
+    "description": "Bottom navigation label for the home tab."
+  },
+  "navHabits": "Habits",
+  "@navHabits": {
+    "description": "Bottom navigation label for the habits tab."
+  },
+  "navMood": "Mood",
+  "@navMood": {
+    "description": "Bottom navigation label for the mood tab."
+  },
+  "navCoach": "Coach",
+  "@navCoach": {
+    "description": "Bottom navigation label for the AI coach tab."
+  },
+  "navAnalytics": "Insights",
+  "@navAnalytics": {
+    "description": "Bottom navigation label for the analytics tab."
+  },
+
+  "semanticsOpenSettings": "Open settings",
+  "@semanticsOpenSettings": {
+    "description": "Semantics label for the settings icon button in the app bar."
+  }
+}
