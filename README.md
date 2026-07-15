@@ -12,6 +12,10 @@ An AI-powered habit and mood coach built with Flutter. Track daily habits, check
 - **Insights** — habit and mood trends over time
 - **Local-first** — your data stays on the device (Hive/Isar planned)
 
+## App flow
+
+A three-page onboarding intro leads into the **Today** home shell: greeting, day-at-a-glance overview, quick actions, and entry points into habits, mood check-ins, and the coach. Onboarding currently shows on every launch — the completed flag is persisted once local storage lands (see the roadmap).
+
 ## Screenshots
 
 Placeholders — real captures land as each feature ships.

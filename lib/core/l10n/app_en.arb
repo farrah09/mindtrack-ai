@@ -6,34 +6,138 @@
     "description": "The application name shown in the OS task switcher and app bars."
   },
 
-  "onboardingTitle": "Welcome to MindTrack",
-  "@onboardingTitle": {
-    "description": "Title of the onboarding screen."
+  "onboardingHabitsTitle": "Small habits, real momentum",
+  "@onboardingHabitsTitle": {
+    "description": "Title of the first onboarding page, about habit tracking."
   },
-  "onboardingDescription": "Build better habits, understand your moods, and get gentle coaching along the way.",
-  "@onboardingDescription": {
-    "description": "Short pitch shown on the onboarding screen."
+  "onboardingHabitsBody": "Pick a few small daily actions and build streaks at your own pace — no pressure, no guilt.",
+  "@onboardingHabitsBody": {
+    "description": "Body copy of the first onboarding page, about habit tracking."
+  },
+  "onboardingMoodTitle": "Notice how you feel",
+  "@onboardingMoodTitle": {
+    "description": "Title of the second onboarding page, about mood check-ins."
+  },
+  "onboardingMoodBody": "Quick daily mood check-ins help you see patterns between what you do and how you feel.",
+  "@onboardingMoodBody": {
+    "description": "Body copy of the second onboarding page, about mood check-ins."
+  },
+  "onboardingCoachTitle": "Gentle guidance, when you want it",
+  "@onboardingCoachTitle": {
+    "description": "Title of the third onboarding page, about the coach."
+  },
+  "onboardingCoachBody": "Get supportive suggestions based on the habits and moods you track — your data stays on your device.",
+  "@onboardingCoachBody": {
+    "description": "Body copy of the third onboarding page, about the coach."
+  },
+  "onboardingSkip": "Skip",
+  "@onboardingSkip": {
+    "description": "Label of the button that skips the remaining onboarding pages and opens the home screen."
+  },
+  "onboardingNext": "Next",
+  "@onboardingNext": {
+    "description": "Label of the button that advances to the next onboarding page."
   },
   "onboardingGetStarted": "Get started",
   "@onboardingGetStarted": {
     "description": "Label of the button that finishes onboarding and opens the home screen."
+  },
+  "onboardingPageSemantics": "Page {current} of {total}",
+  "@onboardingPageSemantics": {
+    "description": "Screen-reader label for the onboarding page indicator dots.",
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
   },
 
   "homeTitle": "Today",
   "@homeTitle": {
     "description": "Title of the home screen."
   },
-  "homeDescription": "Your daily overview of habits, mood, and coaching will live here.",
-  "@homeDescription": {
-    "description": "Placeholder description on the home screen."
+  "homeGreetingMorning": "Good morning",
+  "@homeGreetingMorning": {
+    "description": "Home greeting shown before noon."
   },
-  "homeEmptyTitle": "Nothing here yet",
-  "@homeEmptyTitle": {
-    "description": "Title of the empty state on the home screen."
+  "homeGreetingAfternoon": "Good afternoon",
+  "@homeGreetingAfternoon": {
+    "description": "Home greeting shown between noon and early evening."
   },
-  "homeEmptyMessage": "Once you add habits and check in with your mood, your day will take shape here.",
-  "@homeEmptyMessage": {
-    "description": "Message of the empty state on the home screen."
+  "homeGreetingEvening": "Good evening",
+  "@homeGreetingEvening": {
+    "description": "Home greeting shown in the evening."
+  },
+  "homeGreetingSubtitle": "One small step at a time.",
+  "@homeGreetingSubtitle": {
+    "description": "Supportive line under the home greeting."
+  },
+  "homeTodayOverviewTitle": "Your day at a glance",
+  "@homeTodayOverviewTitle": {
+    "description": "Title of the today overview card on the home screen."
+  },
+  "homeTodayOverviewMessage": "As you complete habits and check in with your mood, today takes shape here.",
+  "@homeTodayOverviewMessage": {
+    "description": "Message of the today overview card before any data exists."
+  },
+  "homeQuickActionsTitle": "Quick actions",
+  "@homeQuickActionsTitle": {
+    "description": "Section header above the quick action shortcuts on the home screen."
+  },
+  "homeActionAddHabit": "Add habit",
+  "@homeActionAddHabit": {
+    "description": "Quick action that opens the habits tab."
+  },
+  "homeActionMoodCheckIn": "Mood check-in",
+  "@homeActionMoodCheckIn": {
+    "description": "Quick action that opens the mood tab."
+  },
+  "homeActionAskCoach": "Ask coach",
+  "@homeActionAskCoach": {
+    "description": "Quick action that opens the AI coach tab."
+  },
+  "homeActionViewInsights": "View insights",
+  "@homeActionViewInsights": {
+    "description": "Quick action that opens the analytics tab."
+  },
+  "homeHabitsSectionTitle": "Habits",
+  "@homeHabitsSectionTitle": {
+    "description": "Section header above the habit preview on the home screen."
+  },
+  "homeHabitsPreviewTitle": "Start your first habit",
+  "@homeHabitsPreviewTitle": {
+    "description": "Title of the habit invitation card shown before any habits exist."
+  },
+  "homeHabitsPreviewMessage": "Pick one small thing to do each day. Momentum grows from there.",
+  "@homeHabitsPreviewMessage": {
+    "description": "Message of the habit invitation card shown before any habits exist."
+  },
+  "homeMoodSectionTitle": "Mood",
+  "@homeMoodSectionTitle": {
+    "description": "Section header above the mood check-in entry card on the home screen."
+  },
+  "homeMoodCardTitle": "How are you feeling?",
+  "@homeMoodCardTitle": {
+    "description": "Title of the mood check-in entry card on the home screen."
+  },
+  "homeMoodCardMessage": "A quick check-in takes seconds and helps you spot patterns.",
+  "@homeMoodCardMessage": {
+    "description": "Message of the mood check-in entry card on the home screen."
+  },
+  "homeCoachSectionTitle": "Coach",
+  "@homeCoachSectionTitle": {
+    "description": "Section header above the coach preview on the home screen."
+  },
+  "homeCoachPreviewMessage": "Hi, I'm your coach. Once you start tracking habits and moods, supportive suggestions will show up here.",
+  "@homeCoachPreviewMessage": {
+    "description": "Canned welcome message shown in the coach preview bubble on the home screen."
+  },
+  "homeWeeklyReflectionTitle": "Weekly reflection",
+  "@homeWeeklyReflectionTitle": {
+    "description": "Section header of the weekly reflection placeholder on the home screen."
+  },
+  "homeWeeklyReflectionMessage": "A gentle look back at your week will appear here.",
+  "@homeWeeklyReflectionMessage": {
+    "description": "Message of the weekly reflection placeholder card."
   },
 
   "habitsTitle": "Habits",

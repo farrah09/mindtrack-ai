@@ -11,7 +11,8 @@ void main() {
 
     final l10n = AppLocalizationsEn();
     expect(find.byType(OnboardingScreen), findsOneWidget);
-    expect(find.text(l10n.onboardingTitle), findsOneWidget);
-    expect(find.text(l10n.onboardingGetStarted), findsOneWidget);
+    expect(find.text(l10n.onboardingHabitsTitle), findsOneWidget);
+    expect(find.text(l10n.onboardingSkip), findsOneWidget);
+    expect(find.text(l10n.onboardingNext), findsOneWidget);
   });
 }
